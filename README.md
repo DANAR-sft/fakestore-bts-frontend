@@ -125,7 +125,6 @@ docker run -d -p 3000:80 --name fake-store-app fake-store-bts
 ## 📁 Struktur Direktori
 
 ```text
-├── public/
 ├── src/
 │   ├── components/          # Reusable UI components
 │   │   ├── CategoryFilter.jsx
@@ -158,6 +157,7 @@ docker run -d -p 3000:80 --name fake-store-app fake-store-bts
 ├── .gitignore
 ├── docker-compose.yml
 ├── Dockerfile
+├── index.html
 ├── nginx.conf
 ├── package.json
 ├── package-lock.json
